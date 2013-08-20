@@ -91,9 +91,7 @@
 - (void)forgetPasswordForAccount:(AIAccount *)inAccount {
 	[adiumPasswords forgetPasswordForAccount:inAccount];
 }
-- (NSString *)passwordForAccount:(AIAccount *)inAccount {
-	return [adiumPasswords passwordForAccount:inAccount];
-}
+
 - (void)passwordForAccount:(AIAccount *)inAccount promptOption:(AIPromptOption)promptOption notifyingTarget:(id)inTarget selector:(SEL)inSelector context:(id)inContext {
 	[adiumPasswords passwordForAccount:inAccount promptOption:promptOption notifyingTarget:inTarget selector:inSelector context:inContext];
 }
